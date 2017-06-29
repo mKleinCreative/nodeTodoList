@@ -7,7 +7,6 @@ const list = (callback) => {
   fs.readFile(jsonFilePath, (err, data) => {
     if (err) throw err;
     jsonData = JSON.parse(data.toString())
-    console.log( '---===jsonData===---', jsonData )
     console.log("ID|  TASKS\n___________________")
     let filteredArray = jsonData.filter(data => data.completed === false)
     filteredArray.map(function(data) {

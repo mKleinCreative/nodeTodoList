@@ -7,7 +7,7 @@
   {
     "id": 2,
     "task": "fight 2 dargson",
-    "completed": false
+    "completed": true
   },
   {
     "id": 3,
@@ -72,6 +72,16 @@
   {
     "id": 15,
     "task": "less things more money",
+    "completed": true
+  },
+  {
+    "id": 16,
+    "task": "get i na bum fight",
+    "completed": true
+  },
+  {
+    "id": 17,
+    "task": "get i na bum fight",
     "completed": false
   }
 ]
